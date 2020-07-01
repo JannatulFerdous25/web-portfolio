@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+section{
+    height:500px;
+    padding-bottom: 130px;
+}
+.half-width-one{
+    width: 40%;
+    float: left;
+    margin-left: 95px;
+}
+.ass{
+    font-style: italic;
+    font-size: 20px;
+}
+.para{
+    line-height:1.6;
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    color:grey;
+}
+.description{
+    color:orange;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.name{
+    color:rgb(207, 81, 81);
+}
+.hone{
+    font-size: 50px;
+    margin: 0 0;
+}
+.link-button{
+
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding:9px 20px;
+    background-image: linear-gradient(45deg, rgb(238, 169, 141), tomato);
+    margin-top: 30px;
+    }
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width .img-one{
+    width: 83%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.htwo{
+    font-size: 43px;
+}
+.half-width .img-two{
+    width:100%;
+}
+.dream-area{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:60%;
+    background-color: #fff;
+    
+}
+.single-exp p{
+    padding-right: 30px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #fff;
+}
+.h-exp{
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(238, 169, 141), tomato);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 7px solid;
+    border-image:  linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+text-align: center;
+color:grey;
+font-size: 12px;
+}
